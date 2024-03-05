@@ -748,6 +748,24 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await del_all(query.message, grp_id, title)
         else:
             await query.answer("You need to be Group Owner or an Auth User to do that!", show_alert=True)
+    
+    elif query.data == "shortlink_info":
+            btn =  [[InlineKeyboardButton('⚡ Rq-group ', url=f"https://t.me/+0TBKVN0Z6yM1MTc1"),
+                                                    InlineKeyboardButton('Channel 🤖',url='https://t.me/tamcinemas') ],
+                                 [InlineKeyboardButton(' Update ⚡', url=f"https://t.me/tamcinemas"), 
+                                  InlineKeyboardButton('Support 🔔',url='https://t.me/tamcinemas')]]
+            await client.edit_message_media(
+                query.message.chat.id, 
+                query.message.id, 
+                InputMediaPhoto(random.choice(PICS))
+            )
+            reply_markup = InlineKeyboardMarkup(btn)
+            await query.message.edit_text(
+                text=(script.SHORTLINK_INFO),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+	    )
+	    
     elif query.data == "delallcancel":
         userid = query.from_user.id
         chat_type = query.message.chat.type
