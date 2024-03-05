@@ -1,18 +1,23 @@
 class script(object):
-    START_TXT = """Hello {},
-Myself <a href=https://t.me/{}>{}</a>,\n\nTrust me ! I can't even imagine how super-fast i can drive your Database channel \n\nAre you ready for Long Drive Baby...🤪"""
+    START_TXT = """✨ 𝙃𝙚𝙮 {}.
+𝙈𝙮𝙨𝙚𝙡𝙛 <a href=https://t.me/{}>{}</a>,\n\n𝗧𝗿𝘂𝘀𝘁 𝗺𝗲 ❗ 𝗜 𝗰𝗮𝗻 𝗼𝗳𝗳𝗲𝗿 𝘆𝗼𝘂 𝗠𝗢𝗩𝗜𝗘𝗦/𝗦𝗘𝗥𝗜𝗘𝗦. 𝗦𝗮𝘃𝗲 𝘆𝗼𝘂𝗿 𝗧𝗶𝗺𝗲 𝗯𝘆 𝗔𝗱𝗱𝗶𝗻𝗴 𝗠𝗲𝗵 𝘁𝗼 𝘆𝗼𝘂𝗿 𝗴𝗿𝗼𝘂𝗽 𝗮𝗻𝗱 𝗲𝗻𝗷𝗼𝘆 𝗺𝘆 𝗰𝗮𝗽𝗮𝗯𝗶𝗹𝗶𝘁𝗶𝗲𝘀 \n\nᴀ̲ʀ̲ᴇ̲ ̲ʏ̲ᴏ̲ᴜ̲ ̲ʀ̲ᴇ̲ᴀ̲ᴅ̲ʏ̲ ̲ᴍ̲ʏ̲ ̲ʙ̲ᴜ̲ᴅ̲ᴅ̲ʏ̲...🤪"""  
+  
     LZTHMB_TEXT = """Hello {},
-Glad to see you here. It seems that you really love <a href=https://t.me/LazyDeveloperr >LazyDeveloper's</a> work.\n\n<b>Thumbnail extracting</b> feature will be available soon, please join <a href=https://t.me/LazyDeveloper>Dev Channel</a> and stay tuned for next <a href=https://t.me/LazyDeveloper>update</a>.\n\n  🐞 Report Bug here: <a href=http://t.me/LazyDeveloperSupport>LazyDev Support</a>
+Glad to see you here. It seems that you really love <a href=https://t.me/tamcinemas >𝙈𝙖𝙨𝙩𝙚𝙧 𝙍𝙤𝙨𝙝𝙞 🪶</a> work.\n\n<b>Thumbnail extracting</b> feature will be available soon, please join <a href=https://t.me/tamcinemas>Our Channel</a> and stay tuned for next <a href=https://t.me/tamcinemas>update</a>.\n\n  🐞 Report Bug here: <a href=https://t.me/tamcinemasdubt>OurDev Support</a>
     """
+   
     LZLINK_TEXT = """Hey {},
-Glad to see you here. It seems that you really love <a href=https://t.me/LazyDeveloperr >LazyDeveloper's</a> work.\n\n<b>File to LiNK converting</b> feature will be available soon, please join <a href=https://t.me/LazyDeveloper>Dev Channel</a> and stay tuned for next <a href=https://t.me/LazyDeveloper>update</a>.\n\n  🐞 Report Bug here: <a href=http://t.me/LazyDeveloperSupport>LazyDev Support</a>
+Glad to see you here. It seems that you really love <a href=https://t.me/tamcinemas >𝙈𝙖𝙨𝙩𝙚𝙧 𝙍𝙤𝙨𝙝𝙞 🪶</a> work.\n\n<b>Thumbnail extracting</b> feature will be available soon, please join <a href=https://t.me/tamcinemas>Our Channel</a> and stay tuned for next <a href=https://t.me/tamcinemas>update</a>.\n\n  🐞 Report Bug here: <a href=https://t.me/tamcinemasdubt>OurDev Support</a>
     """
-    DNT_TEXT = """Hey sweetie {},
-Thanks for thinking about us.\nIt seems that you really love <a href=https://t.me/LazyDeveloperr >LazyDeveloper's</a> work.\n\n<b>For your kind information, we do not ask or force anyone for any kind of payment</b>. But if you really want to donate us then you can send money to us from below links...\n\n💵 Reach Donation Page : <a href=http://t.me/DonateLazyDeveloper>Click here...</a>\n\nT❤️ hank you so much..
+   
+    DNT_TEXT = """Hey Sweetie {},
+Thankyou Thinking About Us. It seems that you really love <a href=https://t.me/tamcinemas >𝙈𝙖𝙨𝙩𝙚𝙧 𝙍𝙤𝙨𝙝𝙞 🪶</a> work.\n\n<b>Thumbnail extracting</b> feature will be available soon, please join <a href=https://t.me/tamcinemas>Our Channel</a> and stay tuned for next <a href=https://t.me/tamcinemas>update</a>.\n\n  🐞 Report Bug here: <a href=https://t.me/tamcinemasdubt>OurDev Support</a>
     """
+   
     REQ_AUTH_TEXT = """Hello {},
-\nSorry sweetie.. You must have to be the Authentic User to complete this operation...\n\n👮‍♀ REPORT ISSUE HERE: <a href=https://t.me/LazyDeveloperSupport>LazyDeveloper Support</a>\n\n
+\nSorry sweetie.. You must have to be the Authentic User to complete this operation...\n\n👮‍♀ REPORT ISSUE HERE: <a href=https://t.me/tamcinemasdubt>MasterRoshi's Support</a>\n\n
     """
+    SHORTLINK_INFO = ""
     
     TEXT = "sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴛᴏ sᴇᴛ ɪᴛ"
 
@@ -26,9 +31,12 @@ Thanks for thinking about us.\nIt seems that you really love <a href=https://t.m
 
     NO_VOID_FORMAT_FOUND = "ERROR... <code>{}</code>"
 
-    UPLOAD_START = "<b>initiating Lazy Upload ⚡</b>"
+    UPLOAD_START = "<b>initiating Roshi Upload ⚡</b>"
 
-    LAZY_UPLOAD_START = """<b>●❤♡ Recieving Lazy File ♡❤●</b>\n\n⏯**File Name:** `{}`"""
+    LAZY_UPLOAD_START = (
+    "<b>\u25cf❤♡ Recieving Roshi File ♡❤\u25cf</b>\n\n"
+    "⏯**File Name:** `{}`"
+)
 
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "▼ Dᴏᴡɴʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs.\n▲ Uᴘʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs\n\n★.•☆•.★𑁔𑁔★ 𝖽𝖾𝗍✫𝗂𝗅𝗌 ★𑁔𑁔★.•☆•.★\n\n🔗<b>URL:</b> {}\n\n✩📂<b>F Name:</b> `{}`\n\n✩📝<b>C Name:</b> `{}`\n\n🧬**File Size:** `{}`\n\n🧡Thank you🧡"
 
@@ -68,24 +76,28 @@ Here is the help for my COMMANDS."""
 ➪ Send me any direct download link of your file.
 
 """
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/LazyDeveloper>LazyDeveloper</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v10.0.0 [ 𝙱𝙴𝚃𝙰 ]"""
+
+   # ⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟ 
+    ABOUT_TXT =  """✯ 𝙈𝙮 𝙉𝙖𝙢𝙚: {}\n
+╭━━━━❰ MY ᴅᴇᴛᴀɪʟꜱ ❱━➣
+┣⪼ 𝘼𝙧𝙩𝙞𝙨𝙩 ➪ <a href=t.me/tamcinemas>𝙋𝙧𝙖𝙫𝙚𝙚𝙣 </a>
+┣⪼ 𝙇𝙖𝙣𝙜  ➪ 𝙋𝙮𝙩𝙝𝙤𝙣 𝟹
+┣⪼ 𝘿𝘽    ➪ 𝙈𝙤𝙣𝙜𝙤-𝘿𝘽
+┣⪼ 𝙃𝙪𝙗   ➪ 𝙆𝙤𝙮𝙚𝙗
+┣⪼ 𝙈𝙚𝙝   ➪ 𝙈𝙖𝙨𝙩𝙚𝙧 𝙍𝙤𝙨𝙝𝙞 🪶 𝐕𝟐
+╰━━━━━━━━━━━━━━━➣ """
 
     SOURCE_TXT = """<b>NOTE:</b>
-- Lazy Princess is an open source project. 
-- Source - https://github.com/LazyDeveloperr/LazyPrincess  
-- Please give a star to this repo after fork. Salute to <a href=https://t.me/LazyDeveloperr>LazyDeveloper</a> for adding extra features in me.
+
+- Please give a star to this repo after fork. Salute to <a href=https://t.me/tamcinemas>𝙈𝙖𝙨𝙩𝙚𝙧 𝙍𝙤𝙨𝙝𝙞 🪶</a> for adding extra features in me.
 
 <b>DEV:</b>
-- 🦋 <a href=https://t.me/LazyDeveloper>LazyDeveloper</a> 🦋"""
+- 🦋 <a href=https://t.me/tamcinemas>Praveen Kumar K</a> 🦋"""
+   
+   
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and LazyPriness will respond whenever that keyword hits the message
+- Filter is the feature were users can set automated replies for a particular keyword and MasterRoshi will respond whenever that keyword hits the message
 
 <b>NOTE:</b>
 1. BOT should have admin privillage.
@@ -97,6 +109,8 @@ Here is the help for my COMMANDS."""
 • /filters - <code>list all the filters of a chat</code>
 • /del - <code>delete a specific filter in chat</code>
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
+    
+    
     BUTTON_TXT = """Help: <b>Buttons</b>
 
 - Supports both url and alert inline buttons.
@@ -107,10 +121,11 @@ Here is the help for my COMMANDS."""
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/LazyDeveloper)</code>
+<code>[Button Text](buttonurl:https://t.me/tamcinemas)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
+  
     AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
 
 <b>NOTE:</b>
@@ -118,6 +133,7 @@ Here is the help for my COMMANDS."""
 2. Make sure that your channel does not contains camrips, porn and fake files.
 3. Forward the last message to me with quotes.
  I'll add all the files in that channel to my db."""
+ 
     CONNECTION_TXT = """Help: <b>Connections</b>
 
 - Used to connect bot to PM for managing filters 
@@ -131,6 +147,8 @@ Here is the help for my COMMANDS."""
 • /connect  - <code>connect a particular chat to your PM</code>
 • /disconnect  - <code>disconnect from a chat</code>
 • /connections - <code>list all your connections</code>"""
+   
+   
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
@@ -141,6 +159,7 @@ these are the extra features of Lazy Princess
 • /info  - <code>get information about a user.</code>
 • /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>"""
+   
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
 <b>NOTE:</b>
@@ -158,20 +177,27 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
-★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
-★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
-    LOG_TEXT_G = """#NewGroup
-Group = {}(<code>{}</code>)
-Total Members = <code>{}</code>
-Added By - {}
+   
+   
+    STATUS_TXT = """★ 𝙏𝙤𝙩𝙚𝙡 𝙁𝙞𝙡𝙚𝙨: <code>{}</code>
+★ 𝙏𝙤𝙩𝙚𝙡 𝙐𝙨𝙚𝙧𝙨   : <code>{}</code>
+★ 𝙏𝙤𝙩𝙚𝙡 𝘾𝙝𝙖𝙩𝙨   : <code>{}</code>
+★ 𝙐𝙨𝙚𝙙 𝙎𝙩𝙤𝙧𝙖𝙜𝙚 : <code>{}</code> 𝙼𝚒𝙱
+★ 𝙁𝙧𝙚𝙚 𝙎𝙩𝙤𝙧𝙖𝙜𝙚 : <code>{}</code> 𝙼𝚒𝙱"""
+    
+    
+    LOG_TEXT_G = """#ɴᴇᴡ_ɢʀᴏᴜᴩ
+◉ ɢʀᴏᴜᴩ   : {}(<code>{}</code>)
+◉ ᴍᴇᴍʙᴇʀꜱ : <code>{}</code>
+◉ ᴀᴅᴅᴇᴅ ʙʏ: {}
 """
+   
+   
     LOG_TEXT_P = """#NewUser
-ID - <code>{}</code>
-Name - {}
+◉ ᴜꜱᴇʀ-ɪᴅ :- <code>{}</code>
+◉ ɴᴀᴍᴇ   :- {}
 """
+   
     PROGRESS_BAR = """\n
 ╭━━━━❰ PROGRESS BAR ❱━➣
 ┣⪼ 🗂️ : {1} | {2}
