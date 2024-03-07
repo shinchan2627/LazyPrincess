@@ -5,13 +5,14 @@
 # 🥰  Thank you for giving me credit @LazyDeveloperr  🥰
 # for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
 # rip paid developers 🤣 - >> No need to buy paid source code while @LazyDeveloperr is here 😍😍
+
 import logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
 from info import *
-from imdb import Cinemagoer
+from imdb import IMDb
 import asyncio
-from pyrogram.types import Message, InlineKeyboardButton
 from urllib.parse import quote
+from pyrogram.types import Message, InlineKeyboardButton
 from pyrogram import enums
 from typing import Union
 import re
