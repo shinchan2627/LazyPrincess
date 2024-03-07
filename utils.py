@@ -12,6 +12,7 @@ from imdb import IMDb
 import asyncio
 from pyrogram.types import Message, InlineKeyboardButton
 from pyrogram import enums
+from urllib.parse import quote
 from typing import Union
 import re
 import os
@@ -392,6 +393,7 @@ async def get_shortlink(link):
         https = "https"
         link = link.replace("http", https)
     url = f'https://{URL_SHORTENR_WEBSITE}/api'
+    link = quote(link)  # Encode the link parameter
     params = {'api': URL_SHORTNER_WEBSITE_API,
               'url': link,
               }
@@ -408,7 +410,7 @@ async def get_shortlink(link):
 
     except Exception as e:
         logger.error(e)
-        return f'{URL_SHORTENR_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&link={link}'
+        return f'https://{URL_SHORTENR_WEBSITE}/api?api={URL_SHORTNER_WEBSITE_API}&link={link}'
 
 
 
