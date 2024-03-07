@@ -8,11 +8,11 @@
 import logging
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
 from info import *
-from imdb import IMDb
+from imdb import Cinemagoer
 import asyncio
 from pyrogram.types import Message, InlineKeyboardButton
-from pyrogram import enums
 from urllib.parse import quote
+from pyrogram import enums
 from typing import Union
 import re
 import os
@@ -386,7 +386,17 @@ def humanbytes(size):
         size /= power
         n += 1
     return str(round(size, 2)) + " " + Dic_powerN[n] + 'B'
-    
+
+
+import aiohttp
+import requests
+import logging
+
+URL_SHORTENR_WEBSITE = "krownlinks.com"
+URL_SHORTNER_WEBSITE_API = "c388646edd3823f5de84729134f012428dfd405e"  # Replace with your actual API token
+
+logger = logging.getLogger(__name__)
+
 async def get_shortlink(link):
     https = link.split(":")[0]
     if "http" == https:
